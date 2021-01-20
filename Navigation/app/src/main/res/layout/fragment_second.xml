@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".FirstFragment">
+
+        <TextView
+            android:id="@+id/second_Fragment_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SecondFragment"
+            android:layout_gravity="center"
+            android:textSize="26sp"
+            android:layout_marginTop="50dp"
+            >
+
+        </TextView>
+
+        <Button
+            android:id="@+id/second_fragment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To First Fragment"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            >
+
+        </Button>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
